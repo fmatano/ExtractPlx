@@ -1,9 +1,10 @@
 %% Add path to your Matlab Offline Files SDK
-addpath('/Users/francescamatano/Dropbox/CMU/thesis/Plexon Offline SDKs/Matlab Offline Files SDK')
+cd '/your_path_to/Plexon Offline SDKs/Matlab Offline Files SDK/mexPlex'
+addpath('/your_path_to/Plexon Offline SDKs/Matlab Offline Files SDK')
 
-%% Provide a path for your input and output file
-input_file = '/Users/francescamatano/Dropbox/CMU/thesis/r_code/pre-processing/20161214/Nigel.VR.20161214-unsortedwfs.plx'
-output_file = '/Users/francescamatano/Dropbox/CMU/thesis/r_code/pre-processing/20161214/unsorted_data/waveform_moments.hdf5'
+%% Provide a path for your input and output file. The output needs to be a .hdf5
+input_file = 'your_path_to_plx_file.plx'
+output_file = 'your_path_to_the_output_file/waveform_moments.hdf5'
 
 
   %% Iterate through all channels 
